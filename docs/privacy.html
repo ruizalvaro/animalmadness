@@ -1,1 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Animal Madness / Animaladas</title>
+  <meta name="description" content="Privacy policy for the Animal Madness (Animaladas) Android app." />
+  <style>
+    :root {
+      --bg: #0b2d4a;
+      --card: #0f3d5c;
+      --text: #e8f4fc;
+      --muted: #9ec4dc;
+      --accent: #ffd040;
+      --border: #1a5a82;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(165deg, var(--bg) 0%, #061a2e 100%);
+      color: var(--text);
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    .wrap {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 3rem;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0 0 0.35rem;
+      color: var(--accent);
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    nav.lang {
+      margin-top: 1rem;
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    nav.lang a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    nav.lang a:hover { text-decoration: underline; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.35rem;
+      margin-bottom: 1.25rem;
+    }
+    section h2 {
+      font-size: 1.1rem;
+      margin: 0 0 0.75rem;
+      color: var(--accent);
+    }
+    section p, section ul { margin: 0 0 0.75rem; font-size: 0.95rem; }
+    section ul { padding-left: 1.2rem; }
+    section li { margin-bottom: 0.35rem; }
+    section p:last-child, section ul:last-child { margin-bottom: 0; }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Privacy policy</h1>
+      <p class="sub">Animal Madness / Animaladas · Android app</p>
+      <nav class="lang" aria-label="Language">
+        <a href="#english">English</a>
+        <a href="#espanol">Español</a>
+      </nav>
+    </header>
 
+    <p class="muted" style="margin-bottom:1.5rem">
+      This page describes how the app handles information.
+    </p>
+
+    <section id="english" lang="en">
+      <h2>English</h2>
+      <p><strong>Last updated:</strong> April 1, 2026</p>
+      <p>
+        Animal Madness (display name in Spanish: <em>Animaladas</em>) is a free local party game for Android.
+        This policy explains what happens on your device. By using the app, you agree to this policy.
+      </p>
+
+      <p><strong>Who we are</strong></p>
+      <p>
+        The app is provided by <strong>B2Y</strong> (b2y.us).
+        Contact: <a href="mailto:alvaro@b2y.us" style="color:var(--accent)">alvaro@b2y.us</a>
+      </p>
+
+      <p><strong>Information stored on your device</strong></p>
+      <ul>
+        <li>
+          The app saves a <strong>history of game prompts</strong> (internal identifiers for animals and traits, and pair keys)
+          using Android local storage (<code>AsyncStorage</code>). This helps reduce repeated combinations during play.
+          It does <strong>not</strong> include your name, email, or precise location.
+        </li>
+        <li>
+          <strong>Player names</strong> you type in the app are kept in memory for your session and are
+          <strong>not</strong> written to this persistent history file.
+        </li>
+      </ul>
+
+      <p><strong>What we do not do</strong></p>
+      <ul>
+        <li>No user accounts or login.</li>
+        <li>No analytics, advertising SDKs, or crash reporting are built into the app as shipped from this project.</li>
+        <li>We do not sell personal data.</li>
+      </ul>
+
+      <p><strong>Internet and third parties</strong></p>
+      <ul>
+        <li>The core game works <strong>offline</strong>.</li>
+        <li>If you tap <strong>“See animal”</strong>, your device opens a <strong>web browser</strong> (e.g. Google Images search).
+          That service has its own privacy terms; we do not control what the browser or the site collects.</li>
+      </ul>
+
+      <p><strong>Children</strong></p>
+      <p>
+        The app is intended for families and groups. Parents or guardians should supervise young children.
+        We do not knowingly collect personal information from children beyond what is described above (local prompt history).
+      </p>
+
+      <p><strong>Your choices</strong></p>
+      <p>
+        You can clear app data or uninstall the app to remove locally stored prompt history (via Android settings).
+      </p>
+
+      <p><strong>Changes</strong></p>
+      <p>
+        We may update this policy. The “Last updated” date will change when we do. Continued use after changes means you accept the updated policy.
+      </p>
+    </section>
+
+    <section id="espanol" lang="es">
+      <h2>Español</h2>
+      <p><strong>Última actualización:</strong> 1 de abril de 2026</p>
+      <p>
+        Animaladas (nombre en inglés en tienda: <em>Animal Madness</em>) es un juego de fiesta local gratuito para Android.
+        Esta política explica qué ocurre en tu dispositivo. Al usar la app, aceptas esta política.
+      </p>
+
+      <p><strong>Responsable</strong></p>
+      <p>
+        La app la ofrece <strong>B2Y</strong> (b2y.us).
+        Contacto: <a href="mailto:alvaro@b2y.us" style="color:var(--accent)">alvaro@b2y.us</a>
+      </p>
+
+      <p><strong>Datos en tu dispositivo</strong></p>
+      <ul>
+        <li>
+          La app guarda un <strong>historial de pistas del juego</strong> (identificadores internos de animales y rasgos, y claves de parejas)
+          en el almacenamiento local del dispositivo (<code>AsyncStorage</code>). Sirve para repetir menos combinaciones durante las partidas.
+          <strong>No</strong> incluye tu nombre, correo ni ubicación precisa.
+        </li>
+        <li>
+          Los <strong>nombres de jugadores</strong> que escribes se mantienen en memoria durante la sesión y
+          <strong>no</strong> se guardan en ese historial persistente.
+        </li>
+      </ul>
+
+      <p><strong>Qué no hacemos</strong></p>
+      <ul>
+        <li>Sin cuentas ni inicio de sesión.</li>
+        <li>Sin analítica, publicidad ni informes de fallos integrados en el proyecto base.</li>
+        <li>No vendemos datos personales.</li>
+      </ul>
+
+      <p><strong>Internet y terceros</strong></p>
+      <ul>
+        <li>El juego base funciona <strong>sin conexión</strong>.</li>
+        <li>Si pulsas <strong>«Ver animal»</strong>, se abre el <strong>navegador</strong> (p. ej. búsqueda en Google Imágenes).
+          Ese servicio tiene su propia política de privacidad; no controlamos lo que recopila el navegador o el sitio.</li>
+      </ul>
+
+      <p><strong>Menores</strong></p>
+      <p>
+        La app está pensada para familias y grupos. Los padres o tutores deberían supervisar a los niños pequeños.
+        No recopilamos a sabiendas datos personales de menores más allá de lo descrito (historial local de pistas).
+      </p>
+
+      <p><strong>Tus opciones</strong></p>
+      <p>
+        Puedes borrar los datos de la app o desinstalarla para eliminar el historial de pistas guardado localmente (ajustes de Android).
+      </p>
+
+      <p><strong>Cambios</strong></p>
+      <p>
+        Podemos actualizar esta política. La fecha de «Última actualización» cambiará cuando lo hagamos. El uso continuado implica aceptación.
+      </p>
+    </section>
+
+    <footer>
+      Animal Madness / Animaladas — open-source project. Host this file on GitHub Pages and set the same URL in Google Play and in the app (<code>publicInfo.ts</code>).
+    </footer>
+  </div>
+</body>
+</html>
